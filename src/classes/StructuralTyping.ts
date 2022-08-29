@@ -14,15 +14,15 @@ class Point1 {
 
 
   class Person {
-    name: string;
+    fullName: string;
     age!: number;
   }
    
   class Employee {
-    name!: string;
+    fullName!: string;
     age!: number;
     salary!: number;
   }
    
   // OK
-  const p: Person = new Employee();
+  const person: Person = new Employee();

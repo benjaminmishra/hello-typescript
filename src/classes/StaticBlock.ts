@@ -6,14 +6,6 @@ class Foo {
     }
 }
 
-class AClass {
-    private static count = 0;
- 
-    public static constructor(){
-
-    }
-}
-
 function loadLastInstances() :string {
     return "Instance";
 }
