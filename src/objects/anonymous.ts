@@ -6,6 +6,5 @@ function helloHuman(human : {
     talk : () => void
     move: (from: number, to:number) => void
 }){
-
     console.log("hello " + human.fullName);
 }
